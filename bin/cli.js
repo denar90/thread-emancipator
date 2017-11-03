@@ -5,7 +5,7 @@ const logSymbols = require('log-symbols');
 const meow = require('meow');
 const threadEmancipator = require('../');
 
-const commandName = 'is-thread-busy';
+const commandName = 'thread-emancipator';
 const cli = meow(`
 	Usage
 	  ${commandName} <scriptPath> <url>

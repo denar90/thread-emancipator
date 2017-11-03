@@ -7,6 +7,9 @@
     "test": "mocha --reporter=dot test/**/*-test.js --timeout=10000",
     "coverage": "nyc yarn test && nyc report --reporter=text-lcov > lcov.info"
   },
+  "bin": {
+    "thread-emancipator": "bin/cli.js"
+  },
   "author": "denar90",
   "license": "MIT",
   "dependencies": {
