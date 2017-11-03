@@ -1,0 +1,8 @@
+# folders
+.nyc_output/
+coverage/
+node_modules/
+
+# dev files
+lcov.info
+.editorconfig

@@ -1,0 +1,9 @@
+# folders
+test/
+.nyc_output/
+coverage/
+
+# dev files
+lcov.info
+.editorconfig
+.travis.yml

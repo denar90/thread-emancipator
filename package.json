@@ -1,0 +1,22 @@
+{
+  "name": "thread-emancipator",
+  "version": "0.1.0",
+  "description": "Thread business detector",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter=dot test/**/*-test.js --timeout=10000",
+    "coverage": "nyc yarn test && nyc report --reporter=text-lcov > lcov.info"
+  },
+  "author": "denar90",
+  "license": "MIT",
+  "dependencies": {
+    "meow": "^3.7.0",
+    "pify": "^3.0.0",
+    "puppeteer": "^0.12.0",
+    "log-symbols": "^2.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "nyc": "^11.2.1"
+  }
+}
